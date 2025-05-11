@@ -120,23 +120,27 @@ input {
   border: solid rgb(224, 222, 222);
 }
 
-@media only screen and (max-width: 776px) {
-  .container {
+@media only screen and (max-width: 768px) {
+  body {
     padding: 10px;
-    height: 200px;
   }
 
-  #car-1 img,
-  #car-2 img {
-    height: 50px;
+  .track {
+    padding-bottom: 38%;
   }
 
-  #car-1 {
-    top: 35px;
+}
+
+@media only screen and (max-width: 480px) {
+  .track {
+    padding-bottom: 36%;
   }
 
-  #car-2 {
-    bottom: 35px;
+  #type-container #word-to-type {
+    font-size: clamp(1.3rem, 5.5vw, 2rem);
   }
 
+  #type-container input {
+    font-size: clamp(0.8rem, 3vw, 1.2rem);
+  }
 }
