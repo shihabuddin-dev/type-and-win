@@ -12,40 +12,9 @@ setTimeout(() => {
 }, 100);
 
 const words = [
-    "the", "quick", "brown", "fox", "jumps", "over", "lazy", "dog", "sun", "moon",
+    "the", "quick", "brown", "fox", "jumps", "over", "lazy", "cat", "boss", "sun", "moon", "life",
     "star", "tree", "river", "hill", "sky", "game", "play", "win", "type", "race",
-    "speed", "challenge", "keyboard", "monitor", "computer", "code", "javascript",
-    "develop", "software", "internet", "web", "page", "style", "script", "button",
-    "click", "event", "listener", "function", "variable", "array", "object", "loop",
-    "while", "for", "if", "else", "true", "false", "null", "undefined", "return",
-    "break", "continue", "class", "method", "property", "constructor", "module",
-    "import", "export", "async", "await", "promise", "fetch", "response", "request",
-    "header", "body", "element", "document", "window", "console", "log", "error",
-    "debug", "test", "unit", "integration", "deploy", "server", "client", "network",
-    "protocol", "http", "https", "dns", "ip", "port", "data", "string", "number",
-    "boolean", "bigint", "symbol", "alert", "prompt", "confirm", "timeout", "interval",
-    "clear", "left", "right", "top", "bottom", "position", "absolute", "relative",
-    "static", "fixed", "display", "block", "inline", "flex", "grid", "margin", "padding",
-    "border", "color", "background", "image", "font", "text", "align", "center",
-    "shadow", "opacity", "transform", "transition", "animation", "keyframe", "media",
-    "query", "responsive", "design", "mobile", "tablet", "desktop", "apple", "banana",
-    "orange", "grape", "lemon", "lime", "berry", "fruit", "green", "yellow", "blue",
-    "purple", "black", "white", "silver", "gold", "platinum", "diamond", "ruby",
-    "emerald", "sapphire", "happy", "smile", "laugh", "friend", "family", "love",
-    "peace", "dream", "future", "world", "earth", "space", "planet", "galaxy",
-    "universe", "light", "dark", "sound", "music", "art", "science", "history",
-    "story", "book", "read", "write", "learn", "teach", "study", "school", "college",
-    "work", "job", "career", "money", "house", "home", "city", "country", "travel",
-    "journey", "adventure", "explore", "discover", "ocean", "mountain", "forest",
-    "desert", "island", "beach", "wave", "sand", "water", "fire", "air",
-    "spirit", "mind", "body", "health", "sport", "exercise", "food", "drink",
-    "morning", "afternoon", "evening", "night", "today", "tomorrow", "yesterday",
-    "always", "never", "often", "sometimes", "usually", "rarely", "again", "once",
-    "example", "another", "because", "however", "therefore", "although", "through",
-    "between", "among", "without", "within", "around", "about", "above", "below",
-    "SYSTEM", "PROGRAM", "INTERFACE", "DATABASE", "ALGORITHM", "NETWORK", "SECURITY",
-    "AUTHENTICATION", "AUTHORIZATION", "ENCRYPTION", "DECRYPTION", "FRAMEWORK",
-    "LIBRARY", "COMPONENT", "APPLICATION", "PLATFORM", "CLOUD", "VIRTUAL", "MACHINE"
+    "car", "speed", "fast", "slow", "fun", "sad", "bored",
 ];
 
 
