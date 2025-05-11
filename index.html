@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Type And Win</title>
-</head>
-<body>
-    <h2>Type Game</h2>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Type and Win</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="racing-sans-one-regular">
+    <div>
+      <h2>Typing Racer</h2>
+      <button id="start-game" class="btn">Start Game</button>
+    </div>
+
+    <div class="container">
+      <div class="track">
+        <div id="car-1">
+          <img alt="car1" src="car1.png" />
+        </div>
+        <div id="car-2">
+          <img alt="car2" src="car2.png" />
+        </div>
+      </div>
+    </div>
+
+    <div id="type-container">
+      <div id="word-to-type"></div>
+      <div>
+        <input id="typed-word" type="text" placeholder="Type here..." />
+      </div>
+    </div>
+
+    <dialog id="modal"></dialog>
+
+    <script src="script.js"></script>
+  </body>
 </html>

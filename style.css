@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
+.racing-sans-one-regular {
+  font-family: "Racing Sans One", sans-serif;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #1a1a1a;
+  color: white;
+  text-align: center;
+  /* overflow: hidden; */
+}
+
+h2 {
+  font-size: 50px;
+  color: #FDFDFDFF;
+}
+
+h3 {
+  font-size: 40px;
+  color: crimson;
+}
+
+.btn {
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background: #0f0c29;
+  background: linear-gradient(45deg, #24243e, #302b63, #0f0c29);
+  box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(226, 45, 45), 0 0 40px #0ff,
+    0 0 50px #ff0022, 0 0 60px #ff0037, 0 0 70px #0ff;
+  position: relative;
+  z-index: 1;
+
+}
+
+.container {
+  width: 100%;
+  height: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+  margin-top: 20px;
+}
+
+.track {
+  position: relative;
+  max-width: 1378px;
+  width: 100%;
+  height: 100%;
+  background-image: url('./track.png');
+  background-size: contain;
+  /* Ensures the entire image fits without cropping */
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+#car-1,
+#car-2 {
+  position: absolute;
+  transition: left 0.9s ease;
+}
+
+#car-1 {
+  top: 20%;
+  left: -10%;
+}
+
+#car-2 {
+  bottom: 20%;
+  left: -10%;
+}
+
+#car-1 img,
+#car-2 img {
+  height: 90px;
+  width: auto;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 1));
+}
+
+#type-container {
+  visibility: hidden;
+  margin: 50px;
+  background: #444;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+#type-container #word-to-type {
+  font-size: 60px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 30px;
+}
+
+
+#modal {
+  background-color: rgb(51, 50, 50);
+  border-radius: 10px;
+  min-width: 500px;
+  border: solid rgb(224, 222, 222);
+}
+
+@media only screen and (max-width: 776px) {
+  .container {
+    padding: 10px;
+    height: 200px;
+  }
+
+  #car-1 img,
+  #car-2 img {
+    height: 50px;
+  }
+
+  #car-1 {
+    top: 35px;
+  }
+
+  #car-2 {
+    bottom: 35px;
+  }
+
+}
